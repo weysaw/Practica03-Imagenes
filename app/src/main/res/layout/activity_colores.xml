@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Colores">
+
+    <ImageView
+        android:id="@+id/imagen"
+        android:layout_width="match_parent"
+        android:layout_height="224dp"
+        android:layout_weight="1" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.142857"
+        android:text="@string/Rojo"
+        android:textColor="@color/design_default_color_on_secondary"
+        android:textSize="20sp" />
+
+    <com.google.android.material.slider.Slider
+        android:id="@+id/rojo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.142857"
+        android:valueFrom="0.0"
+        android:valueTo="255.0" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.142857"
+        android:text="@string/Verde"
+        android:textColor="@color/design_default_color_on_secondary"
+        android:textSize="20sp" />
+
+    <com.google.android.material.slider.Slider
+        android:id="@+id/verde"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.142857"
+        android:valueFrom="0.0"
+        android:valueTo="255.0" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.142857"
+        android:text="@string/Azul"
+        android:textColor="@color/design_default_color_on_secondary"
+        android:textSize="20sp" />
+
+    <com.google.android.material.slider.Slider
+        android:id="@+id/azul"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.142857"
+        android:valueFrom="0.0"
+        android:valueTo="255.0" />
+
+    <Button
+        android:id="@+id/guardar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.142857"
+        android:text="@string/guardar" />
+
+</LinearLayout>

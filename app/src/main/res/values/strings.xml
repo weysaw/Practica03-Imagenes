@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Práctica03_Imagenes</string>
+    <string name="tomar_foto">Tomar Foto</string>
+    <string name="Rojo">Rojo</string>
+    <string name="Verde">Verde</string>
+    <string name="Azul">Azul</string>
+    <string name="guardar">Guardar Foto</string>
+</resources>
